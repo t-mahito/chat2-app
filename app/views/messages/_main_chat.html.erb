@@ -14,40 +14,7 @@
 
 
 <div class="main_main">
- <div class="message">
-  <div class="message_top">
-   <div class="message_name">
-    Tom
-   </div>
-
-   <div class="message_date">
-    2020/3/31(Wed) 12:43:30
-   </div>
-  </div>
-
-  <div class="message_bottom">
-   <div class="message_main">
-    おはよう
-   </div>
-  </div>
- </div>
- 
-  <div class="message">
-  <div class="message_top">
-   <div class="message_name">
-    Tom
-   </div>
-
-   <div class="message_date">
-    2020/3/31(Wed) 12:47:30
-   </div>
-  </div>
-
-  <div class="message_bottom">
-   <div class="message_main">
-    こんばんは
-   </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
  </div>
 </div>
 
